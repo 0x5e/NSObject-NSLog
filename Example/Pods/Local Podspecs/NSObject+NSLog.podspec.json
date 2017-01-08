@@ -1,8 +1,8 @@
 {
   "name": "NSObject+NSLog",
   "version": "0.1.0",
-  "summary": "A short description of NSObject+NSLog.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A simple drop-in library to support unicode encoding output when using NSLog(@\"%@\", dict);",
+  "description": "As we know, while using `NSLog` to output `NSDictionary/NSArray/NSSet`, non-ascii characers will be convert to `Udd3f` format. It sucks. Let me help you :)",
   "homepage": "https://github.com/<GITHUB_USERNAME>/NSObject-NSLog",
   "license": {
     "type": "MIT",

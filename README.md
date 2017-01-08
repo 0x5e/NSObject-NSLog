@@ -1,9 +1,9 @@
-# NSObject-NSLog
+# NSObject+NSLog
 
-[![CI Status](http://img.shields.io/travis/gaosen/NSObject-NSLog.svg?style=flat)](https://travis-ci.org/gaosen/NSObject-NSLog)
-[![Version](https://img.shields.io/cocoapods/v/NSObject-NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
-[![License](https://img.shields.io/cocoapods/l/NSObject-NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
-[![Platform](https://img.shields.io/cocoapods/p/NSObject-NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
+[![CI Status](http://img.shields.io/travis/gaosen/NSObject+NSLog.svg?style=flat)](https://travis-ci.org/gaosen/NSObject-NSLog)
+[![Version](https://img.shields.io/cocoapods/v/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
+[![License](https://img.shields.io/cocoapods/l/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
+[![Platform](https://img.shields.io/cocoapods/p/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
 
 ## Example
 
@@ -17,7 +17,7 @@ NSObject-NSLog is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "NSObject-NSLog"
+pod "NSObject+NSLog"
 ```
 
 ## Author
@@ -26,4 +26,4 @@ gaosen, 0x5e@sina.cn
 
 ## License
 
-NSObject-NSLog is available under the MIT license. See the LICENSE file for more info.
+NSObject+NSLog is available under the MIT license. See the LICENSE file for more info.

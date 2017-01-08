@@ -7,115 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13F9627663D41A8A0B6B9746AB300FF4 /* Pods-NSObject-NSLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3158FEAEE70A896961E3408BAF66AE3C /* Pods-NSObject-NSLog_Tests-dummy.m */; };
-		14F7E1289AA508D9ACEEF1C57F58D05D /* NSObject+NSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05C01FC2D8F6A7B28893393664FD6B /* NSObject+NSLog-dummy.m */; };
-		1DBAF47B659B79A32D4F11864ECC0354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6860C46B74A2D7616C0AD277CC2479B7 /* Pods-NSObject-NSLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C184A2A18512C7F43683E0CFE89B27 /* Pods-NSObject-NSLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE54CCBEA6A37624ADBA6EEB0FF289B0 /* NSObject+NSLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D01875E794432AAD9C5DC3D11C998A /* NSObject+NSLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6BC74D5CB80437A7E10A497320AC449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F79986FB550D09A19EC9153F700307A5 /* NSObject+NSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E070CAC0AFBADEFF3F4BD0142644111 /* NSObject+NSLog.m */; };
+		1CE08EE56E62E1D23C90A307705D6B92 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
+		5D87F44BA3AA8B12F4C5A9FDF5CB7082 /* Pods-NSObject-NSLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B4F5D31916DF0E6265446E4A4814F0 /* Pods-NSObject-NSLog_Tests-dummy.m */; };
+		61422E5DBE10582B4B9B3968272BB8D0 /* NSObject+NSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 91400E8DDC194C5D713E9F11DF76F483 /* NSObject+NSLog.m */; };
+		8E3DCCB1F56B23994DDE730F36B6EDC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */; };
+		B0E68C48747F24F82C6A56D49FE0AE01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
+		F6E6ECF90A6ED0A2851CA1ABD28AD991 /* NSObject+NSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9928E9B8DB6D49E1BEBA8B526903F /* NSObject+NSLog-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E18A40E1080A04C091C62EEBA28D8C6 /* PBXContainerItemProxy */ = {
+		C804C8CB59BE54053457FC9A1818B957 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20F80C0D60984A2F12736297688A6184;
+			remoteGlobalIDString = 53FF0B8FC4A0455C6FDC8C02599D87BF;
 			remoteInfo = "NSObject+NSLog";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FD6962E42009CDA41FA43DA1CC81B87 /* Pods_NSObject_NSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSObject_NSLog_Tests.framework; path = "Pods-NSObject-NSLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C753A88F34B009EDF162276F31F15A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		140CCAEA0435A2266CD9BD9F67EFF3E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DE8746AD0D826C5331AD16D8B4A3186 /* Pods-NSObject-NSLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObject-NSLog_Tests-resources.sh"; sourceTree = "<group>"; };
-		3158FEAEE70A896961E3408BAF66AE3C /* Pods-NSObject-NSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSObject-NSLog_Tests-dummy.m"; sourceTree = "<group>"; };
-		48D01875E794432AAD9C5DC3D11C998A /* NSObject+NSLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSLog-umbrella.h"; sourceTree = "<group>"; };
-		5D25CFB1933BD5B96F8DFD500BAE23DD /* NSObject+NSLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSObject+NSLog.xcconfig"; sourceTree = "<group>"; };
-		66B368CA687F47094792EACAFA9E2036 /* NSObject+NSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSObject+NSLog.modulemap"; sourceTree = "<group>"; };
-		6E070CAC0AFBADEFF3F4BD0142644111 /* NSObject+NSLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLog.m"; sourceTree = "<group>"; };
-		824C8F1F3266BBD265421075BB494053 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObject-NSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		02CE3632CDC00A0F3640A52B77332A93 /* Pods-NSObject-NSLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSObject-NSLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37B27A53FAD88E58C0BD25A57C59A29D /* Pods-NSObject-NSLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObject-NSLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3968B2D971BA0D1A44A5FCD8E9BE0C9F /* libPods-NSObject-NSLog_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NSObject-NSLog_Tests.a"; path = "libPods-NSObject-NSLog_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6351ED4C4E0884527A3DBF4F44EDDA /* NSObject+NSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSLog-prefix.pch"; sourceTree = "<group>"; };
+		6147DA03294C001F6BBA716E52906AAB /* Pods-NSObject-NSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObject-NSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61581E26149A48DE6C451C7A2E911A68 /* Pods-NSObject-NSLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObject-NSLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		87E9928E9B8DB6D49E1BEBA8B526903F /* NSObject+NSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLog-dummy.m"; sourceTree = "<group>"; };
+		8E9CC2A30808A03505BDD025BF723378 /* libNSObject+NSLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libNSObject+NSLog.a"; path = "libNSObject+NSLog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91400E8DDC194C5D713E9F11DF76F483 /* NSObject+NSLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLog.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F05C01FC2D8F6A7B28893393664FD6B /* NSObject+NSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLog-dummy.m"; sourceTree = "<group>"; };
-		A61E9F8BB020FDB333D942C918528EFA /* NSObject+NSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSLog-prefix.pch"; sourceTree = "<group>"; };
-		B5C184A2A18512C7F43683E0CFE89B27 /* Pods-NSObject-NSLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSObject-NSLog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C6BE59AEDCBD33235FFB62E8BFB9EDDF /* Pods-NSObject-NSLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSObject-NSLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C9A36FD032785EFA4496ACD098C07749 /* Pods-NSObject-NSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObject-NSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CAD649D49D0B49F15E64B74892854FFB /* Pods-NSObject-NSLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSObject-NSLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E608B7AEF9EC7A52FC4AF85C366C90F1 /* NSObject_NSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSObject_NSLog.framework; path = "NSObject+NSLog.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9ACA8B9EC7690D105B3ABCCE88A42F9 /* Pods-NSObject-NSLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSObject-NSLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EE62259E90E06FD3BF984BC9C247C2F8 /* Pods-NSObject-NSLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSObject-NSLog_Tests.modulemap"; sourceTree = "<group>"; };
+		9723161B82E90E455A49A55985A4597C /* Pods-NSObject-NSLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSObject-NSLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA995106F3869B2F6605F51589452741 /* NSObject+NSLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSObject+NSLog.xcconfig"; sourceTree = "<group>"; };
+		E1B4F5D31916DF0E6265446E4A4814F0 /* Pods-NSObject-NSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSObject-NSLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF1FE3B39A01D85F7F85AA26F326C713 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSObject-NSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7753A84622BFB62A75AE7612F12B7EE9 /* Frameworks */ = {
+		ED8A06916151D56ED6B80D50F11B9A18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBAF47B659B79A32D4F11864ECC0354 /* Foundation.framework in Frameworks */,
+				1CE08EE56E62E1D23C90A307705D6B92 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F6F239A13A7E6C0358F64ABDC196B5D /* Frameworks */ = {
+		F0E25FB22CA132B6D84A2008D559CA33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BC74D5CB80437A7E10A497320AC449 /* Foundation.framework in Frameworks */,
+				B0E68C48747F24F82C6A56D49FE0AE01 /* Cocoa.framework in Frameworks */,
+				8E3DCCB1F56B23994DDE730F36B6EDC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		178FEBAEE628CB670BDC8F5865D101DA /* Targets Support Files */ = {
+		02D6B62C4F8898990FE1DD42C63175D9 /* NSObject+NSLog */ = {
 			isa = PBXGroup;
 			children = (
-				994D73C1BAF6134C9F237A4F7C5AEF73 /* Pods-NSObject-NSLog_Tests */,
+				7D468287DA31F19B71FC9EFBBA963ACC /* NSObject+NSLog */,
+				D035271296079C07B78BE18028AD26FE /* Support Files */,
+			);
+			name = "NSObject+NSLog";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		05EA8178AFC29F7B35904898251A1030 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C857AD47C2EAF4E7856E4E2D705A5B6F /* Pods-NSObject-NSLog_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3874EAA724F72BA8AAE7F6EB1C2626D3 /* Support Files */ = {
+		2EA8A4ED1B16E20D93AA25D1D6430C2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				140CCAEA0435A2266CD9BD9F67EFF3E0 /* Info.plist */,
-				66B368CA687F47094792EACAFA9E2036 /* NSObject+NSLog.modulemap */,
-				5D25CFB1933BD5B96F8DFD500BAE23DD /* NSObject+NSLog.xcconfig */,
-				9F05C01FC2D8F6A7B28893393664FD6B /* NSObject+NSLog-dummy.m */,
-				A61E9F8BB020FDB333D942C918528EFA /* NSObject+NSLog-prefix.pch */,
-				48D01875E794432AAD9C5DC3D11C998A /* NSObject+NSLog-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NSObject+NSLog";
-			sourceTree = "<group>";
-		};
-		3E49042AAC7EEC6E8E07C3FDB62D3A3A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E608B7AEF9EC7A52FC4AF85C366C90F1 /* NSObject_NSLog.framework */,
-				0FD6962E42009CDA41FA43DA1CC81B87 /* Pods_NSObject_NSLog_Tests.framework */,
+				8E9CC2A30808A03505BDD025BF723378 /* libNSObject+NSLog.a */,
+				3968B2D971BA0D1A44A5FCD8E9BE0C9F /* libPods-NSObject-NSLog_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		427CBC5D6669323BBBC0B9F06FD15F10 /* NSObject+NSLog */ = {
+		7D468287DA31F19B71FC9EFBBA963ACC /* NSObject+NSLog */ = {
 			isa = PBXGroup;
 			children = (
-				DC96076AEE576009BD2DD636C6217048 /* Classes */,
+				D5EEE4A1497EA9DEB1FE348A0D8301B9 /* Classes */,
 			);
 			name = "NSObject+NSLog";
 			path = "NSObject+NSLog";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -123,94 +106,81 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FB1767901DA2955253806C6D2C72A9D4 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E49042AAC7EEC6E8E07C3FDB62D3A3A /* Products */,
-				178FEBAEE628CB670BDC8F5865D101DA /* Targets Support Files */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				2EA8A4ED1B16E20D93AA25D1D6430C2C /* Products */,
+				05EA8178AFC29F7B35904898251A1030 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		994D73C1BAF6134C9F237A4F7C5AEF73 /* Pods-NSObject-NSLog_Tests */ = {
+		92FC4590B3B6C6A2141FDC7D1DA8879E /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				12C753A88F34B009EDF162276F31F15A /* Info.plist */,
-				EE62259E90E06FD3BF984BC9C247C2F8 /* Pods-NSObject-NSLog_Tests.modulemap */,
-				CAD649D49D0B49F15E64B74892854FFB /* Pods-NSObject-NSLog_Tests-acknowledgements.markdown */,
-				E9ACA8B9EC7690D105B3ABCCE88A42F9 /* Pods-NSObject-NSLog_Tests-acknowledgements.plist */,
-				3158FEAEE70A896961E3408BAF66AE3C /* Pods-NSObject-NSLog_Tests-dummy.m */,
-				C6BE59AEDCBD33235FFB62E8BFB9EDDF /* Pods-NSObject-NSLog_Tests-frameworks.sh */,
-				1DE8746AD0D826C5331AD16D8B4A3186 /* Pods-NSObject-NSLog_Tests-resources.sh */,
-				B5C184A2A18512C7F43683E0CFE89B27 /* Pods-NSObject-NSLog_Tests-umbrella.h */,
-				824C8F1F3266BBD265421075BB494053 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */,
-				C9A36FD032785EFA4496ACD098C07749 /* Pods-NSObject-NSLog_Tests.release.xcconfig */,
+				6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */,
+				1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C857AD47C2EAF4E7856E4E2D705A5B6F /* Pods-NSObject-NSLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9723161B82E90E455A49A55985A4597C /* Pods-NSObject-NSLog_Tests-acknowledgements.markdown */,
+				02CE3632CDC00A0F3640A52B77332A93 /* Pods-NSObject-NSLog_Tests-acknowledgements.plist */,
+				E1B4F5D31916DF0E6265446E4A4814F0 /* Pods-NSObject-NSLog_Tests-dummy.m */,
+				37B27A53FAD88E58C0BD25A57C59A29D /* Pods-NSObject-NSLog_Tests-frameworks.sh */,
+				61581E26149A48DE6C451C7A2E911A68 /* Pods-NSObject-NSLog_Tests-resources.sh */,
+				FF1FE3B39A01D85F7F85AA26F326C713 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */,
+				6147DA03294C001F6BBA716E52906AAB /* Pods-NSObject-NSLog_Tests.release.xcconfig */,
 			);
 			name = "Pods-NSObject-NSLog_Tests";
 			path = "Target Support Files/Pods-NSObject-NSLog_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D035271296079C07B78BE18028AD26FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				CA995106F3869B2F6605F51589452741 /* NSObject+NSLog.xcconfig */,
+				87E9928E9B8DB6D49E1BEBA8B526903F /* NSObject+NSLog-dummy.m */,
+				4A6351ED4C4E0884527A3DBF4F44EDDA /* NSObject+NSLog-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSObject+NSLog";
 			sourceTree = "<group>";
 		};
-		BEA3C904CB17CF965F86523AD1CE0877 /* NSObject+NSLog */ = {
+		D5EEE4A1497EA9DEB1FE348A0D8301B9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				427CBC5D6669323BBBC0B9F06FD15F10 /* NSObject+NSLog */,
-				3874EAA724F72BA8AAE7F6EB1C2626D3 /* Support Files */,
-			);
-			name = "NSObject+NSLog";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		DC96076AEE576009BD2DD636C6217048 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6E070CAC0AFBADEFF3F4BD0142644111 /* NSObject+NSLog.m */,
+				91400E8DDC194C5D713E9F11DF76F483 /* NSObject+NSLog.m */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FC4590B3B6C6A2141FDC7D1DA8879E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB1767901DA2955253806C6D2C72A9D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BEA3C904CB17CF965F86523AD1CE0877 /* NSObject+NSLog */,
+				02D6B62C4F8898990FE1DD42C63175D9 /* NSObject+NSLog */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		21DD9C7DBA6EF4B97E64C37FCBE70668 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6860C46B74A2D7616C0AD277CC2479B7 /* Pods-NSObject-NSLog_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24846AF277AF995138D253046298B160 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE54CCBEA6A37624ADBA6EEB0FF289B0 /* NSObject+NSLog-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		20F80C0D60984A2F12736297688A6184 /* NSObject+NSLog */ = {
+		53FF0B8FC4A0455C6FDC8C02599D87BF /* NSObject+NSLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE1150EFF6F722FC9891241B802A96EB /* Build configuration list for PBXNativeTarget "NSObject+NSLog" */;
+			buildConfigurationList = FE09C7A403EE7957113808242F254532 /* Build configuration list for PBXNativeTarget "NSObject+NSLog" */;
 			buildPhases = (
-				136D945B4849265BC293165756A0D451 /* Sources */,
-				7753A84622BFB62A75AE7612F12B7EE9 /* Frameworks */,
-				24846AF277AF995138D253046298B160 /* Headers */,
+				9AEAE526C865E764A6C886641DE0EF5E /* Sources */,
+				F0E25FB22CA132B6D84A2008D559CA33 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,26 +188,25 @@
 			);
 			name = "NSObject+NSLog";
 			productName = "NSObject+NSLog";
-			productReference = E608B7AEF9EC7A52FC4AF85C366C90F1 /* NSObject_NSLog.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 8E9CC2A30808A03505BDD025BF723378 /* libNSObject+NSLog.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		D10E881EAE904DE12F5FD9F953D08FAF /* Pods-NSObject-NSLog_Tests */ = {
+		584287B219351FA450223C550CDF9572 /* Pods-NSObject-NSLog_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC998C5D88527A53F97E24A85690B9A /* Build configuration list for PBXNativeTarget "Pods-NSObject-NSLog_Tests" */;
+			buildConfigurationList = 1B2C31725B1E7BAF8B3C7F924BD744D7 /* Build configuration list for PBXNativeTarget "Pods-NSObject-NSLog_Tests" */;
 			buildPhases = (
-				9A294D77049BB8674920A192AB17AAA8 /* Sources */,
-				9F6F239A13A7E6C0358F64ABDC196B5D /* Frameworks */,
-				21DD9C7DBA6EF4B97E64C37FCBE70668 /* Headers */,
+				203A8228EA6D0CC052CFDD5ED648DB98 /* Sources */,
+				ED8A06916151D56ED6B80D50F11B9A18 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				036B50D15A519755626E4C7292181CE2 /* PBXTargetDependency */,
+				81B0DE0E1A444A85B434B919E1AE93AB /* PBXTargetDependency */,
 			);
 			name = "Pods-NSObject-NSLog_Tests";
 			productName = "Pods-NSObject-NSLog_Tests";
-			productReference = 0FD6962E42009CDA41FA43DA1CC81B87 /* Pods_NSObject_NSLog_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 3968B2D971BA0D1A44A5FCD8E9BE0C9F /* libPods-NSObject-NSLog_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -256,47 +225,120 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3E49042AAC7EEC6E8E07C3FDB62D3A3A /* Products */;
+			productRefGroup = 2EA8A4ED1B16E20D93AA25D1D6430C2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20F80C0D60984A2F12736297688A6184 /* NSObject+NSLog */,
-				D10E881EAE904DE12F5FD9F953D08FAF /* Pods-NSObject-NSLog_Tests */,
+				53FF0B8FC4A0455C6FDC8C02599D87BF /* NSObject+NSLog */,
+				584287B219351FA450223C550CDF9572 /* Pods-NSObject-NSLog_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		136D945B4849265BC293165756A0D451 /* Sources */ = {
+		203A8228EA6D0CC052CFDD5ED648DB98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F7E1289AA508D9ACEEF1C57F58D05D /* NSObject+NSLog-dummy.m in Sources */,
-				F79986FB550D09A19EC9153F700307A5 /* NSObject+NSLog.m in Sources */,
+				5D87F44BA3AA8B12F4C5A9FDF5CB7082 /* Pods-NSObject-NSLog_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A294D77049BB8674920A192AB17AAA8 /* Sources */ = {
+		9AEAE526C865E764A6C886641DE0EF5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F9627663D41A8A0B6B9746AB300FF4 /* Pods-NSObject-NSLog_Tests-dummy.m in Sources */,
+				F6E6ECF90A6ED0A2851CA1ABD28AD991 /* NSObject+NSLog-dummy.m in Sources */,
+				61422E5DBE10582B4B9B3968272BB8D0 /* NSObject+NSLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		036B50D15A519755626E4C7292181CE2 /* PBXTargetDependency */ = {
+		81B0DE0E1A444A85B434B919E1AE93AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSObject+NSLog";
-			target = 20F80C0D60984A2F12736297688A6184 /* NSObject+NSLog */;
-			targetProxy = 8E18A40E1080A04C091C62EEBA28D8C6 /* PBXContainerItemProxy */;
+			target = 53FF0B8FC4A0455C6FDC8C02599D87BF /* NSObject+NSLog */;
+			targetProxy = C804C8CB59BE54053457FC9A1818B957 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		156F96A416E393A25E76FAC27A6F3636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA995106F3869B2F6605F51589452741 /* NSObject+NSLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSObject+NSLog/NSObject+NSLog-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1C5AB792F4BFCC0D1CCC862830652EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA995106F3869B2F6605F51589452741 /* NSObject+NSLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSObject+NSLog/NSObject+NSLog-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2703BB48EB37287513D36CF0E8C40C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6147DA03294C001F6BBA716E52906AAB /* Pods-NSObject-NSLog_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -340,7 +382,32 @@
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		590C66824A0100AF3BB5704A76BA101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1FE3B39A01D85F7F85AA26F326C713 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -380,164 +447,32 @@
 			};
 			name = Release;
 		};
-		5D17FC05FF1A30C0A6A8BE518B5474BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9A36FD032785EFA4496ACD098C07749 /* Pods-NSObject-NSLog_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NSObject-NSLog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSObject-NSLog_Tests/Pods-NSObject-NSLog_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NSObject_NSLog_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ADA73295D4C6733A53BB8196FE49E69C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 824C8F1F3266BBD265421075BB494053 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NSObject-NSLog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NSObject-NSLog_Tests/Pods-NSObject-NSLog_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NSObject_NSLog_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5731B1A4834BBB561AB552B7D32BC04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D25CFB1933BD5B96F8DFD500BAE23DD /* NSObject+NSLog.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSObject+NSLog/NSObject+NSLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSObject+NSLog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSObject+NSLog/NSObject+NSLog.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSObject_NSLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2888A4B4DC7D0E501CA966E8D98A359 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D25CFB1933BD5B96F8DFD500BAE23DD /* NSObject+NSLog.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSObject+NSLog/NSObject+NSLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSObject+NSLog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSObject+NSLog/NSObject+NSLog.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSObject_NSLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B2C31725B1E7BAF8B3C7F924BD744D7 /* Build configuration list for PBXNativeTarget "Pods-NSObject-NSLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590C66824A0100AF3BB5704A76BA101B /* Debug */,
+				2703BB48EB37287513D36CF0E8C40C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
+				F6FC88CB717F413199C282718D2DC09F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BC998C5D88527A53F97E24A85690B9A /* Build configuration list for PBXNativeTarget "Pods-NSObject-NSLog_Tests" */ = {
+		FE09C7A403EE7957113808242F254532 /* Build configuration list for PBXNativeTarget "NSObject+NSLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADA73295D4C6733A53BB8196FE49E69C /* Debug */,
-				5D17FC05FF1A30C0A6A8BE518B5474BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE1150EFF6F722FC9891241B802A96EB /* Build configuration list for PBXNativeTarget "NSObject+NSLog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2888A4B4DC7D0E501CA966E8D98A359 /* Debug */,
-				B5731B1A4834BBB561AB552B7D32BC04 /* Release */,
+				156F96A416E393A25E76FAC27A6F3636 /* Debug */,
+				1C5AB792F4BFCC0D1CCC862830652EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

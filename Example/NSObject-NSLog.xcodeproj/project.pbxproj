@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2463BF25F803E190A5449CF2 /* Pods_NSObject_NSLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DE8E16BC56673403CEEDAA /* Pods_NSObject_NSLog_Tests.framework */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6DD0CECC1E2208DE0070AB66 /* NSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0CEC91E2208DE0070AB66 /* NSArrayTest.m */; };
 		6DD0CECD1E2208DE0070AB66 /* NSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0CECB1E2208DE0070AB66 /* NSDictionaryTest.m */; };
+		6DD0CED31E22165B0070AB66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD0CED21E22165B0070AB66 /* XCTest.framework */; };
+		73EA6E57DBF1E3D4EC552F6D /* libPods-NSObject-NSLog_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A751C115069F9D8FAB02CAD9 /* libPods-NSObject-NSLog_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F0E3DEF0386007A6029EF02 /* Pods-NSObject-NSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObject-NSLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSObject-NSLog_Tests/Pods-NSObject-NSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		38DE8E16BC56673403CEEDAA /* Pods_NSObject_NSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSObject_NSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F5AE195388D20070C39A /* NSObject-NSLog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject-NSLog_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63B234D4CBFBE3EA61872C79 /* NSObject+NSLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "NSObject+NSLog.podspec"; path = "../NSObject+NSLog.podspec"; sourceTree = "<group>"; };
+		63B234D4CBFBE3EA61872C79 /* NSObject+NSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = "NSObject+NSLog.podspec"; path = "../NSObject+NSLog.podspec"; sourceTree = "<group>"; };
 		6DD0CEC81E2208DE0070AB66 /* NSArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayTest.h; sourceTree = "<group>"; };
 		6DD0CEC91E2208DE0070AB66 /* NSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTest.m; sourceTree = "<group>"; };
 		6DD0CECA1E2208DE0070AB66 /* NSDictionaryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryTest.h; sourceTree = "<group>"; };
 		6DD0CECB1E2208DE0070AB66 /* NSDictionaryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTest.m; sourceTree = "<group>"; };
+		6DD0CED21E22165B0070AB66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		76C449AE8F2A12B7B5720BCA /* Pods-NSObject-NSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSObject-NSLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSObject-NSLog_Tests/Pods-NSObject-NSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A751C115069F9D8FAB02CAD9 /* libPods-NSObject-NSLog_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSObject-NSLog_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64C3BAFC9F23865ED3F1F83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FE9CDE7374298C6F6D016C3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,9 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6DD0CED31E22165B0070AB66 /* XCTest.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2463BF25F803E190A5449CF2 /* Pods_NSObject_NSLog_Tests.framework in Frameworks */,
+				73EA6E57DBF1E3D4EC552F6D /* libPods-NSObject-NSLog_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,10 +70,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DD0CED21E22165B0070AB66 /* XCTest.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				38DE8E16BC56673403CEEDAA /* Pods_NSObject_NSLog_Tests.framework */,
+				A751C115069F9D8FAB02CAD9 /* libPods-NSObject-NSLog_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,11 +150,6 @@
 				CLASSPREFIX = NS;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = gaosen;
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "NSObject-NSLog" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -300,7 +293,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -338,7 +331,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
