@@ -1,0 +1,22 @@
+{
+  "name": "NSObject-NSLog",
+  "version": "0.1.0",
+  "summary": "A short description of NSObject-NSLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NSObject-NSLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaosen": "0x5e@sina.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NSObject-NSLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSObject-NSLog/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NSObject+NSLog (0.1.0)
+
+DEPENDENCIES:
+  - NSObject+NSLog (from `../`)
+
+EXTERNAL SOURCES:
+  NSObject+NSLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSObject+NSLog: 906a33e6f08376b70d541699b90aab0d006f772e
+
+PODFILE CHECKSUM: 3374609f2d749c24fb3bea88a9d7c4c0627990c7
+
+COCOAPODS: 1.1.1

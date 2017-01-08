@@ -1,6 +1,6 @@
 use_frameworks!
 target 'NSObject-NSLog_Tests' do
-  pod 'NSObject-NSLog', :path => '../'
+  pod 'NSObject+NSLog', :path => '../'
   
   
 end
