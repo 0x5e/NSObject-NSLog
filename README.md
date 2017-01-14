@@ -1,6 +1,6 @@
 # NSObject+NSLog
 
-[![CI Status](http://img.shields.io/travis/gaosen/NSObject+NSLog.svg?style=flat)](https://travis-ci.org/gaosen/NSObject-NSLog)
+[![CI Status](http://img.shields.io/travis/0x5e/NSObject-NSLog.svg?style=flat)](https://travis-ci.org/0x5e/NSObject-NSLog)
 [![Version](https://img.shields.io/cocoapods/v/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
 [![License](https://img.shields.io/cocoapods/l/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
 [![Platform](https://img.shields.io/cocoapods/p/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject-NSLog)
