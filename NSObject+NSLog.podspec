@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NSObject+NSLog'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple drop-in library to support `NSDictionary/NSArray/NSSet` unicode encoding output when using NSLog(@"%@", dict);'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-As we know, while using `NSLog` to output `NSDictionary/NSArray/NSSet`, non-ascii characers will be convert to `\\Uxxxx` format. It sucks. Let me help you :)
-                       DESC
+  s.description      = 'As we know, when print `NSDictionary/NSArray/NSSet` with `NSLog`, non-ascii characers will be convert to `\\Uxxxx` format. Let me revert back:)'
 
   s.homepage         = 'https://github.com/0x5e/NSObject-NSLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
