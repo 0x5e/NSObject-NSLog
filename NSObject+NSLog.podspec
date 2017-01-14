@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-As we know, while using `NSLog` to output `NSDictionary/NSArray/NSSet`, non-ascii characers will be convert to `\Uxxxx` format. It sucks. Let me help you :)
+As we know, while using `NSLog` to output `NSDictionary/NSArray/NSSet`, non-ascii characers will be convert to `\\Uxxxx` format. It sucks. Let me help you :)
                        DESC
 
   s.homepage         = 'https://github.com/0x5e/NSObject-NSLog'
