@@ -42,9 +42,12 @@ NSString *description(id obj, NSLocale *locale, NSUInteger indent) {
     }];
     [lines addObject:@"}"];
     
-    NSMutableString *indentation = [NSMutableString stringWithString:@"\n"];
-    for (int i = 0; i < level; i++) {
-        [indentation appendString:@"    "];
+    NSMutableString *indentation = [NSMutableString string];
+    if (self.count > 0) {
+        [indentation appendString:@"\n"];
+        for (int i = 0; i < level; i++) {
+            [indentation appendString:@"    "];
+        }
     }
     
     return [lines componentsJoinedByString:indentation];
@@ -69,9 +72,12 @@ NSString *description(id obj, NSLocale *locale, NSUInteger indent) {
     }];
     [lines addObject:@"]"];
     
-    NSMutableString *indentation = [NSMutableString stringWithString:@"\n"];
-    for (int i = 0; i < level; i++) {
-        [indentation appendString:@"    "];
+    NSMutableString *indentation = [NSMutableString string];
+    if (self.count > 0) {
+        [indentation appendString:@"\n"];
+        for (int i = 0; i < level; i++) {
+            [indentation appendString:@"    "];
+        }
     }
     
     return [lines componentsJoinedByString:indentation];
@@ -96,9 +102,12 @@ NSString *description(id obj, NSLocale *locale, NSUInteger indent) {
     }];
     [lines addObject:@")"];
     
-    NSMutableString *indentation = [NSMutableString stringWithString:@"\n"];
-    for (int i = 0; i < level; i++) {
-        [indentation appendString:@"    "];
+    NSMutableString *indentation = [NSMutableString string];
+    if (self.count > 0) {
+        [indentation appendString:@"\n"];
+        for (int i = 0; i < level; i++) {
+            [indentation appendString:@"    "];
+        }
     }
     
     return [lines componentsJoinedByString:indentation];

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6D6EC5AE1E2A49B300D92EED /* NSSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6EC5AD1E2A49B300D92EED /* NSSetTest.m */; };
 		6DD0CECC1E2208DE0070AB66 /* NSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0CEC91E2208DE0070AB66 /* NSArrayTest.m */; };
 		6DD0CECD1E2208DE0070AB66 /* NSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0CECB1E2208DE0070AB66 /* NSDictionaryTest.m */; };
 		6DD0CED31E22165B0070AB66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD0CED21E22165B0070AB66 /* XCTest.framework */; };
@@ -23,6 +24,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63B234D4CBFBE3EA61872C79 /* NSObject+NSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = "NSObject+NSLog.podspec"; path = "../NSObject+NSLog.podspec"; sourceTree = "<group>"; };
+		6D6EC5AC1E2A49B300D92EED /* NSSetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSetTest.h; sourceTree = "<group>"; };
+		6D6EC5AD1E2A49B300D92EED /* NSSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetTest.m; sourceTree = "<group>"; };
 		6DD0CEC81E2208DE0070AB66 /* NSArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayTest.h; sourceTree = "<group>"; };
 		6DD0CEC91E2208DE0070AB66 /* NSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTest.m; sourceTree = "<group>"; };
 		6DD0CECA1E2208DE0070AB66 /* NSDictionaryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryTest.h; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				6DD0CEC91E2208DE0070AB66 /* NSArrayTest.m */,
 				6DD0CECA1E2208DE0070AB66 /* NSDictionaryTest.h */,
 				6DD0CECB1E2208DE0070AB66 /* NSDictionaryTest.m */,
+				6D6EC5AC1E2A49B300D92EED /* NSSetTest.h */,
+				6D6EC5AD1E2A49B300D92EED /* NSSetTest.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -235,6 +240,7 @@
 			files = (
 				6DD0CECC1E2208DE0070AB66 /* NSArrayTest.m in Sources */,
 				6DD0CECD1E2208DE0070AB66 /* NSDictionaryTest.m in Sources */,
+				6D6EC5AE1E2A49B300D92EED /* NSSetTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

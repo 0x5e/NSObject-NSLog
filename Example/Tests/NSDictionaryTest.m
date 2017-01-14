@@ -12,7 +12,7 @@
 
 - (void)testEmpty {
     NSDictionary *dict = @{};
-    NSString *log = @"{\n}";
+    NSString *log = @"{}";
     NSLog(@"%@", dict);
     XCTAssert([dict.description isEqualToString:log]);
 }
@@ -29,7 +29,7 @@
     NSString *log;
     
     dict = @{@"dict": @{}};
-    log = @"{\n    \"dict\" = {\n    };\n}";
+    log = @"{\n    \"dict\" = {};\n}";
     NSLog(@"%@", dict);
     XCTAssert([dict.description isEqualToString:log]);
     
