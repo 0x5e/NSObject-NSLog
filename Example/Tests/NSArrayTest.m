@@ -12,12 +12,17 @@
 
 - (void)testUnicode {
     NSArray *array;
+    NSString *log;
     
     array = @[@"emoji", @"☺️"];
-    XCTAssert([array.description isEqualToString:@"[\n    \"emoji\",\n    \"☺️\",\n]"]);
+    log = @"[\n    \"emoji\",\n    \"☺️\",\n]";
+    NSLog(@"%@", array);
+    XCTAssert([array.description isEqualToString:log]);
     
     array = @[@"chinese", @"中文"];
-    XCTAssert([array.description isEqualToString:@"[\n    \"chinese\",\n    \"中文\",\n]"]);
+    log = @"[\n    \"chinese\",\n    \"中文\",\n]";
+    NSLog(@"%@", array);
+    XCTAssert([array.description isEqualToString:log]);
 }
 
 @end

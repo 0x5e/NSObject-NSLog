@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NSObject+NSLog'
   s.version          = '0.1.0'
-  s.summary          = 'A simple drop-in library to support unicode encoding output when using NSLog(@"%@", dict);'
+  s.summary          = 'A simple drop-in library to support `NSDictionary/NSArray/NSSet` unicode encoding output when using NSLog(@"%@", dict);'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
