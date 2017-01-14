@@ -5,15 +5,27 @@
 [![License](https://img.shields.io/cocoapods/l/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject+NSLog)
 [![Platform](https://img.shields.io/cocoapods/p/NSObject+NSLog.svg?style=flat)](http://cocoapods.org/pods/NSObject+NSLog)
 
-## Example
+A simple drop-in library to support `NSDictionary/NSArray/NSSet` unicode encoding output when using NSLog(@"%@", dict);
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
+
+- Support unicode character
+- Nested indent
+- `DEBUG` macro
+- Unit test
+- Travis-ci
+- Boundary treatment
+- Eliminate ambiguity
+
+## Reference
+
+[swift-corelibs-foundation](https://github.com/apple/swift-corelibs-foundation/)
 
 ## Requirements
 
 ## Installation
 
-NSObject-NSLog is available through [CocoaPods](http://cocoapods.org). To install
+NSObject+NSLog is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
