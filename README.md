@@ -39,3 +39,9 @@ gaosen, 0x5e@sina.cn
 ## License
 
 NSObject+NSLog is available under the MIT license. See the LICENSE file for more info.
+
+## TODO
+
+- NSString escape（[CFString​Transform](http://nshipster.cn/cfstringtransform/)）
+- NSDictionary、NSSet print before sort
+- More unit test case
