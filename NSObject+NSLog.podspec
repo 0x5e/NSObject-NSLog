@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 As we know, while using `NSLog` to output `NSDictionary/NSArray/NSSet`, non-ascii characers will be convert to `\Udd3f` format. It sucks. Let me help you :)
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NSObject-NSLog'
+  s.homepage         = 'https://github.com/0x5e/NSObject-NSLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gaosen' => '0x5e@sina.cn' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NSObject-NSLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/0x5e/NSObject-NSLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
